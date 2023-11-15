@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Sabores do Mundo</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,600,600i,700,700i|Satisfy|Comic+Neue:300,300i,400,400i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- Header -->
+  <script src="./components/header.js"></script>
+
+  <!-- Footer -->
+  <script src="./components/footer.js"></script>
+
+  <!-- =======================================================
+  * Template Name: Delicious
+  * Updated: Sep 18 2023 with Bootstrap v5.3.2
+  * Template URL: https://bootstrapmade.com/delicious-free-restaurant-bootstrap-theme/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <main-header></main-header>
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div class="hero-container">
+      <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+        <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+        <div class="carousel-inner" role="listbox">
+
+          <!-- Slide 1 -->
+          <div class="carousel-item active" style="background-image: url(assets/img/slide/italy-1.jpg);">
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2 class="animate__animated animate__fadeInDown">Itália</h2>
+                <p class="animate__animated animate__fadeInUp">A culinária italiana é conhecida por sua rica diversidade
+                  regional, enfatizando ingredientes frescos e de alta qualidade. Com ícones como massas, pizzas e
+                  queijos mundialmente famosos, a Itália também se destaca por seus embutidos, pratos de frutos do mar
+                  das regiões costeiras e carnes suculentas. As sobremesas, como Tiramisu e Gelato, são amadas
+                  globalmente, enquanto a cultura do vinho e café permeia o estilo de vida italiano. Fundamentalmente, a
+                  culinária italiana valoriza a simplicidade, a tradição e a celebração da família.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="carousel-item" style="background-image: url(assets/img/slide/italy-2.jpg);">
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2 class="animate__animated animate__fadeInDown">País da pasta</h2>
+                <p class="animate__animated animate__fadeInUp">A Itália é frequentemente considerada o "país da pizza e
+                  da pasta", devido à popularidade e influência global desses pratos típicos da culinária italiana. Além
+                  disso, o país é também celebrado por seus queijos, vinhos e azeites de oliva. Contudo, pizza e pasta
+                  são, sem dúvida, os pratos mais emblemáticos e associados à identidade culinária italiana em todo o
+                  mundo.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="carousel-item" style="background-image: url(assets/img/slide/italy-3.jpg);">
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2 class="animate__animated animate__fadeInDown">Tradição e Família</h2>
+                <p class="animate__animated animate__fadeInUp">A comida italiana é muitas vezes uma celebração da
+                  família e da comunidade. É comum que as refeições sejam um evento em que a família se reúne para
+                  cozinhar, comer e passar tempo juntos.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+        </a>
+
+        <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+        </a>
+
+      </div>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= Menu Section ======= -->
+    <section id="menu" class="menu">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Ingredientes</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="menu-flters">
+              <li data-filter="*" class="filter-active">Mostrar tudo</li>
+              <li data-filter=".filter-starters">Comidas</li>
+              <li data-filter=".filter-salads">Bebidas</li>
+              <li data-filter=".filter-specialty">Sobremesas</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row menu-container">
+
+          <div class="col-lg-6 menu-item filter-starters">
+            <div class="menu-content">
+              <a href="#">Pizza</a>
+            </div>
+            <div class="menu-ingredients">
+              Farinha de trigo, água morna, fermento biológico seco, sal, azeite de oliva, molho de tomate caseiro,
+              mozzarella fresca, folhas de manjericão
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-starters">
+            <div class="menu-content">
+              <a href="#">Spaghetti al Pomodoro</a>
+            </div>
+            <div class="menu-ingredients">
+              Macarrão spaghetti, azeite de oliva, alho, tomates, folhas de manjericão, sal, pimenta-do-reino, queijo
+              parmesão
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-salads">
+            <div class="menu-content">
+              <a href="#">Prosecco</a>
+            </div>
+            <div class="menu-ingredients">
+              Uvas glera, levedura, açúcar
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-salads">
+            <div class="menu-content">
+              <a href="#">Negroni</a>
+            </div>
+            <div class="menu-ingredients">
+              Gin, campari, vermute tinto, Fatia ou casca de laranja, gelo
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-specialty">
+            <div class="menu-content">
+              <a href="#">Tiramisu</a>
+            </div>
+            <div class="menu-ingredients">
+              Gemas de ovo, açúcar, queijo mascarpone, biscoitos savoiardi ou ladyfingers, café forte, cacau em pó para
+              polvilhar, colher de chá de essência de baunilha, creme de leite fresco, chocolate amargo, licor de café
+              ou amaretto
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-specialty">
+            <div class="menu-content">
+              <a href="#">Panettone</a>
+            </div>
+            <div class="menu-ingredients">
+              Farinha de trigo, água, fermento biológico seco, açúcar, ovos, manteiga, sal, essência de baunilha, raspas
+              de laranja limão, frutas cristalizadas, uvas-passas
+
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Menu Section -->
+
+    <!-- ======= Specials Section ======= -->
+    <section id="specials" class="specials">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Modo de preparo</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-3">
+            <ul class="nav nav-tabs flex-column">
+              <li class="nav-item">
+                <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">Pizza</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-2">Spaghetti al Pomodoro</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-3">Prosecco</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-4">Negroni</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-5">Tiramisu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-6">Panettone</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-9 mt-4 mt-lg-0">
+            <div class="tab-content">
+              <div class="tab-pane active show" id="tab-1">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+
+                    <h3>Prepare a massa</h3>
+                    <p>Em uma tigela grande, coloque a farinha e faça um buraco no centro.</p>
+                    <p>Dissolva o fermento na água morna e despeje no centro da farinha.</p>
+                    <p>Adicione o sal e comece a misturar, incorporando a farinha aos poucos.</p>
+                    <p>Quando a massa começar a tomar forma, transfira para uma superfície limpa e amasse por cerca de
+                      10 minutos, até que esteja lisa e elástica.</p>
+                    <p>Forme uma bola com a massa, coloque-a de volta na tigela, cubra com um pano úmido e deixe
+                      descansar por cerca de 1 a 2 horas ou até dobrar de tamanho.</p>
+
+                    <h3>Monte</h3>
+                    <p>Pré-aqueça o forno à temperatura máxima.</p>
+                    <p>Em uma superfície enfarinhada, divida a massa em duas partes e abra em discos finos.</p>
+                    <p>Transfira os discos para uma forma de pizza ou pedra de pizza.</p>
+                    <p>Espalhe o molho de tomate sobre cada disco, deixando uma pequena borda ao redor. Disponha pedaços
+                      de mozzarella sobre o molho.</p>
+                    <p>Regue com um pouco de azeite de oliva extra virgem e leve ao forno. Asse até que a borda da massa
+                      esteja dourada e crocante, e a mozzarella derretida e levemente dourada.</p>
+                    <p>Retire do forno, adicione as folhas de manjericão, um fio adicional de azeite e, se desejar, uma
+                      pitada de sal.</p>
+
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/italy-1.png" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane" id="tab-2">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Cozinhe o spaghetti</h3>
+                    <p>Em uma panela grande com água fervente e salgada, cozinhe o spaghetti de acordo com as instruções
+                      da embalagem até ficar "al dente".</p>
+                    <p>Escorra e reserve, mantendo um pouco da água do cozimento.</p>
+
+                    <h3>Prepare o molho de tomate</h3>
+                    <p>Em uma frigideira grande ou panela, aqueça o azeite de oliva em fogo médio.</p>
+                    <p>Adicione o alho picado e refogue até que esteja levemente dourado.</p>
+                    <p>Adicione os tomates à panela.</p>
+                    <p>Deixe o molho cozinhar em fogo médio-baixo por cerca de 20-30 minutos, mexendo ocasionalmente.
+                    </p>
+                    <p>Se o molho estiver muito espesso, você pode adicionar um pouco da água reservada do cozimento do
+                      spaghetti.</p>
+                    <p>Tempere o molho com sal, pimenta.</p>
+                    <p>Pouco antes de servir, adicione as folhas de manjericão rasgadas ao molho e misture bem.</p>
+
+                    <h3>Combine o spaghetti e o molho</h3>
+                    <p> Adicione o spaghetti cozido ao molho e misture bem para que o molho cubra toda a massa.</p>
+                    <p>Em seguida, adicione a berinjela e a abobrinha e refogue até que os vegetais estejam parcialmente
+                      cozidos, cerca de 15 minutos.</p>
+                    <p>Se necessário, você pode adicionar mais um pouco da água do cozimento para ajudar a soltar o
+                      molho e fazer com que ele adira melhor à massa.</p>
+
+                    <h3>Sirva</h3>
+                    <p>Sirva quente com queijo parmesão ralado por cima, se desejar.</p>
+
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/italy-2.png" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane" id="tab-3">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Colheita das Uvas</h3>
+                    <p>As uvas são colhidas quando alcançam a maturidade ideal.</p>
+
+                    <h3>Prensagem</h3>
+                    <p>As uvas são prensadas para extrair o suco.</p>
+
+                    <h3>Primeira Fermentação</h3>
+                    <p>O suco é transferido para tanques de fermentação. Levedura é adicionada ao suco para iniciar a
+                      fermentação. Durante este processo, a levedura consome o açúcar das uvas e produz álcool. O
+                      produto deste estágio é um vinho base ainda sem bolhas.</p>
+
+                    <h3>Segunda Fermentação</h3>
+                    <p>O vinho base é transferido para grandes tanques de aço inoxidável selados. Mais açúcar e levedura
+                      são adicionados para iniciar a segunda fermentação. Esta fermentação cria o dióxido de carbono,
+                      que dá ao Prosecco suas bolhas características.</p>
+
+                    <h3>Filtração</h3>
+                    <p> Após a segunda fermentação, o vinho é filtrado para remover a levedura e outros resíduos.</p>
+
+                    <h3>Engarrafamento</h3>
+                    <p>O Prosecco é então engarrafado sob pressão para manter suas bolhas.</p>
+
+                    <h3>Selagem</h3>
+                    <p>As garrafas são seladas com uma rolha especial e um arame para manter o dióxido de carbono dentro
+                      da garrafa.</p>
+
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/italy-3.png" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane" id="tab-4">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Monte</h3>
+                    <p>Coloque gelo em um copo baixo.</p>
+                    <p>Despeje o gin, o Campari e o vermute sobre o gelo.</p>
+                    <p>Mexa bem para misturar.</p>
+                    <p>Enfeite com uma fatia de laranja ou uma casca de laranja.</p>
+
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/italy-4.png" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane" id="tab-5">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Prepare o creme de mascarpone</h3>
+                    <p>Em uma tigela, bata as gemas e o açúcar até obter uma mistura clara e fofa.</p>
+                    <p>Se estiver usando creme de leite, bata o creme de leite em uma tigela separada até formar picos
+                      suaves.</p>
+                    <p>Misture delicadamente o queijo mascarpone e a essência de baunilha com a mistura de gemas e
+                      açúcar.</p>
+                    <p>Incorpore o creme de leite delicadamente à mistura anterior.</p>
+
+                    <h3>Monte</h3>
+                    <p>Misture o licor com o café esfriado.</p>
+                    <p>Mergulhe rapidamente os biscoitos savoiardi no café (não deixe que fiquem muito encharcados).
+                      Coloque uma camada de biscoitos embebidos no fundo de uma travessa ou em um refratário.</p>
+                    <p>Cubra os biscoitos com uma camada do creme de mascarpone.</p>
+                    <p>Continue fazendo camadas alternadas de biscoitos e creme, terminando com uma camada de creme.</p>
+
+                    <h3>Finalize</h3>
+                    <p>Polvilhe o topo com cacau em pó e, se estiver usando, com chocolate amargo ralado.</p>
+                    <p>Cubra o Tiramisu e refrigere por pelo menos 4 horas, preferencialmente durante a noite, para que
+                      os sabores se misturem e a sobremesa se firme.</p>
+                    <p>Sirva gelado.</p>
+
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/italy-5.png" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-6">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Pré-fermento</h3>
+                    <p>Em uma tigela, misture a farinha com o fermento biológico seco.</p>
+                    <p>Adicione a água aos poucos,
+                      misturando bem até formar uma massa homogênea.</p>
+                    <p>Cubra com um pano e deixe descansar por cerca de 12 horas.</p>
+
+                    <h3>Massa</h3>
+                    <p>Em uma tigela grande, adicione a farinha e faça um buraco no centro.</p>
+                    <p>Adicione o pré-fermento, os ovos, o açúcar, o sal, a baunilha, as raspas de laranja e limão e o
+                      fermento biológico seco.</p>
+                    <p>Misture bem até começar a formar uma massa. Adicione a manteiga e continue amassando até que
+                      esteja completamente incorporada e a massa esteja lisa.</p>
+                    <p>Adicione as frutas cristalizadas e as uvas-passas, e misture bem até que estejam bem distribuídas
+                      pela massa.</p>
+                    <p>Transfira a massa para uma forma de panettone (ou uma forma de bolo com papel manteiga se não
+                      tiver a específica) e deixe crescer em local quente por 3-4 horas, ou até que dobre de tamanho.
+                    </p>
+                    <p>Pré-aqueça o forno a 180°C.</p>
+                    <p>Asse o panettone por cerca de 40-45 minutos, ou até que esteja dourado por cima e um palito
+                      inserido no centro saia limpo.</p>
+                    <p>Retire do forno e deixe esfriar completamente antes de servir.</p>
+
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/italy-6.png" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Specials Section -->
+
+    <!-- ======= Events Section ======= -->
+    <section id="events" class="events">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Histórias</h2>
+        </div>
+
+        <div class="events-slider swiper">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="row event-item">
+                <div class="col-lg-6">
+                  <img src="assets/img/italy-1.1.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-0 content">
+                  <h3>Pizza</h3>
+
+                  <p class="fst-italic">
+                    A pizza, tem suas raízes na cidade de Nápoles, Itália, durante o
+                    século XVIII e XIX. A pizza começou como uma refeição
+                    barata para trabalhadores, vendida em barracas de rua. Originalmente, essas primeiras pizzas eram
+                    simples, com coberturas como alho, azeite e tomate local. A famosa pizza Margherita, com tomate,
+                    mozzarella e manjericão – representando as cores da bandeira italiana –, dizem ter sido nomeada em
+                    homenagem à Rainha Margherita de Saboia após sua visita à cidade em 1889, embora essa história seja
+                    frequentemente debatida. Com a imigração italiana, especialmente para os Estados Unidos no final do
+                    século XIX, a pizza ganhou popularidade e se transformou em uma comida global,
+                    com variações regionais em muitos países ao redor do mundo.
+                  </p>
+
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="row event-item">
+                <div class="col-lg-6">
+                  <img src="assets/img/italy-1.2.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-0 content">
+                  <h3>Spaghetti al Pomodoro</h3>
+
+                  <p class="fst-italic">
+                    O spaghetti al pomodoro, ícone da culinária italiana, tem suas raízes na introdução dos tomates à
+                    Europa no século XVI, vindos da América Central. Inicialmente vistos com desconfiança, os tomates só
+                    foram incorporados na culinária do sul da Itália nos séculos XVII e XVIII. A popular combinação de
+                    tomate e pasta surgiu no século XIX, tornando-se um símbolo da cozinha napolitana. Sua globalização
+                    ocorreu com a emigração italiana no final do século XIX, consolidando-se como emblema da culinária
+                    italiana mundialmente.
+                  </p>
+
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="row event-item">
+                <div class="col-lg-6">
+                  <img src="assets/img/italy-1.3.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-0 content">
+                  <h3>Prosecco</h3>
+
+                  <p class="fst-italic">
+                    O Prosecco é um vinho espumante originário da região de Vêneto, no nordeste da Itália, destacando-se
+                    principalmente nas áreas ao redor das cidades de Conegliano e Valdobbiadene. Produzido
+                    predominantemente a partir da uva Glera, o Prosecco é reconhecido por seu perfil refrescante e
+                    efervescente. Diferente de outros vinhos espumantes, como o Champagne, o Prosecco é
+                    fermentado usando o Método Charmat, no qual a segunda fermentação ocorre em tanques
+                    de aço inoxidável selados, e não dentro da própria garrafa. Isso resulta em um vinho com bolhas
+                    delicadas e um sabor frutado distinto. Graças à sua popularidade crescente, o Prosecco ganhou
+                    proteção de denominação de origem, o que significa que apenas vinhos produzidos em áreas específicas
+                    da Itália podem levar esse nome.
+
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="row event-item">
+                <div class="col-lg-6">
+                  <img src="assets/img/italy-1.4.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-0 content">
+                  <h3>Negroni</h3>
+
+                  <p class="fst-italic">
+                    O Negroni é um coquetel icônico italiano com uma história que remonta ao início do século XX.
+                    Acredita-se que ele tenha sido inventado em Florença, quando o Conde Camillo Negroni pediu ao
+                    bartender de seu café favorito para fortalecer seu coquetel favorito, o Americano, substituindo a
+                    água com gás por gin. A nova mistura, composta por gin, vermute tinto e Campari, tornou-se
+                    rapidamente popular e foi nomeada em homenagem ao conde. Desde então, o Negroni se solidificou como
+                    uma das bebidas clássicas do repertório do bartender, celebrado não apenas na Itália, mas em todo o
+                    mundo.
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="row event-item">
+                <div class="col-lg-6">
+                  <img src="assets/img/italy-1.5.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-0 content">
+                  <h3>Tiramisu</h3>
+
+                  <p class="fst-italic">
+                    O Tiramisu é uma sobremesa italiana relativamente moderna, cujas origens são frequentemente
+                    debatidas, mas é amplamente aceito que se originou no final dos anos 1960 ou início dos anos 1970 na
+                    região do Vêneto, na Itália. A palavra "tiramisu" significa "puxe-me para cima" ou "anima-me", o que
+                    reflete a natureza indulgente e energizante dos ingredientes: café e cacau. Embora existam várias
+                    histórias e lendas sobre a origem exata da receita, incluindo aquela que sugere que era uma
+                    sobremesa servida a soldados para dar-lhes energia, a verdadeira origem permanece um pouco
+                    misteriosa. O que é indiscutível é que, desde a sua invenção, o Tiramisu se tornou uma das
+                    sobremesas italianas mais populares e reconhecidas internacionalmente, símbolo da culinária italiana
+                    no mundo.
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="row event-item">
+                <div class="col-lg-6">
+                  <img src="assets/img/italy-1.6.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-0 content">
+                  <h3>Panettone</h3>
+
+                  <p class="fst-italic">
+                    O Panettone é uma tradicional sobremesa italiana originária de Milão, consumida especialmente
+                    durante as festividades natalinas. Sua história é repleta de lendas, mas é amplamente aceito que
+                    suas raízes remontam à Idade Média. Uma das histórias mais populares conta sobre um jovem
+                    aristocrata chamado Ughetto, que se apaixonou por uma plebeia e, para impressionar o pai dela, um
+                    padeiro, inventou um pão doce com frutas cristalizadas, dando origem ao Panettone. Com o tempo, essa
+                    sobremesa foi se integrando às celebrações natalinas de Milão, ganhando fama e sendo posteriormente
+                    adotada em outras partes da Itália. Hoje, o Panettone é não apenas um ícone da culinária italiana
+                    durante o Natal, mas também é apreciado em muitos outros lugares ao redor do mundo.
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Events Section -->
+
+  </main><!-- End #main -->
+
+  <footer-component></footer-component>
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
