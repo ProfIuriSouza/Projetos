@@ -17,6 +17,33 @@
   font-family: 'Blogger';
   src: url(../Blogger/Blogger_Sans.otf);
 }
+
+.modal-body{
+  background-color: #EF9CA4;
+  color: white;
+}
+.modal-header{
+  background-color: #EF9CA4;
+  color: white;
+  font-weight: bolder;
+  border-color: #a14d63;
+}
+
+#formModal input{
+  width: 100%;
+  border-radius: 10px;
+  border: solid 2px #a14d63;
+}
+
+#formModal .avaliar{
+  margin-top: 25px;
+  width: 100%;
+  border-radius: 10px;
+  border: solid 2px #a14d63;
+  color: white;
+  background-color: #a14d63;
+}
+
 #iniciar{
   width: 80%;
   text-align: center;

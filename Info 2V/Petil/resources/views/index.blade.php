@@ -197,27 +197,27 @@
 <form action="{{ route('avaliacao') }}" method="POST">
     @csrf
 
-    <label for="usabilidade">Usabilidade:</label>
-    <div>
-        <input type="text" id="usabilidade" name="usabilidade" placeholder="Digite sua avaliação de usabilidade">
-    </div>
-
     <label for="interface">Interface:</label>
     <div>
-        <input type="text" id="interface" name="interface" placeholder="Digite sua avaliação da interface">
+        <input type="text" id="interface" name="interface">
     </div>
 
     <label for="facilidade_de_uso">Facilidade de Uso:</label>
     <div>
-        <input type="text" id="facilidade" name="facilidade" placeholder="Digite sua avaliação da facilidade de uso">
+        <input type="text" id="facilidade" name="facilidade">
+    </div>
+
+    <label for="usabilidade">Responsividade:</label>
+    <div>
+        <input type="text" id="usabilidade" name="usabilidade">
     </div>
 
     <label for="comentario">Comentários:</label>
     <div>
-        <input type="text" id="comentario" name="comentario" placeholder="Deixe um comentário">
+        <input type="text" id="comentario" name="comentario">
     </div>
 
-    <button type="submit">Enviar Avaliação</button>
+    <button type="submit" class="avaliar">Enviar Avaliação</button>
 </form>
 
         </div>
