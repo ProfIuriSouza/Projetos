@@ -1,8 +1,0 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-body > div {
-    background-image: url('../../public/dnd-wallpaper.jpg');
-    background-repeat: round;
-}
